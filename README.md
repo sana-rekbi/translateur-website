@@ -1,13 +1,23 @@
 # Language Translator App
 
-A simple language translator application built with **HTML**, **CSS**, and **JavaScript**. This project is designed for beginners and demonstrates how to use an API to translate text between different languages.
+A simple language translator application built with **HTML**, **CSS**, **JavaScript**, and integrated with a translation API. This project demonstrates the use of APIs for text translation and basic text preprocessing.
 
 ---
 
 ## Features
-- Translate text between multiple languages.
-- Clean and responsive user interface.
-- Integrated with the **MyMemory Translation API** for translation functionality.
+- **Multi-Language Translation**: Translate text between various languages using an API.
+- **Responsive UI**: Clean and adaptable design for all devices.
+- **API Integration**: Uses **MyMemory Translation API** for translations.
+- **Basic Text Preprocessing**: Normalize input text and remove unnecessary spaces.
+- **Error Correction**: Suggest basic corrections for misspelled input using libraries like **TextBlob**.
+
+---
+
+## Tech Stack
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python (for preprocessing and error correction)
+- **APIs**: MyMemory Translation API
+- **Libraries**: Flask (optional for backend), TextBlob
 
 ---
 
